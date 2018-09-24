@@ -1,0 +1,25 @@
+body{
+	animation: color_change 12s infinite alternate-reverse;
+}
+@keyframes color_change{
+	0%{
+		background-color: red;
+	}
+	50%{
+		background-color: green;
+	}
+	100%{
+		background-color: blue;
+	}
+}
+.glitch{
+	color: black;
+	position: absolute;
+	width: 500px;
+}
+.glitch:before{
+
+}
+.glitch:after{
+	
+}
