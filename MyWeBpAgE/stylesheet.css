@@ -1,16 +1,19 @@
 body{
-	animation: color_change 12s infinite alternate-reverse;
+	animation: color_change 3s infinite alternate-reverse;
 }
 @keyframes color_change{
 	0%{
-		background-color: red;
-	}
-	50%{
-		background-color: green;
+		background-color: rgb(40,40,40); ;
 	}
 	100%{
-		background-color: blue;
+		background-color: black;
 	}
+}
+h1{
+	color: rgb(220,220,220);
+}
+p{
+	color: rgb(220,220,220);
 }
 .glitch{
 	color: black;
